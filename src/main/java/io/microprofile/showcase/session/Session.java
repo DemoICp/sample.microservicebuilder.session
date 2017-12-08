@@ -1,6 +1,6 @@
 package io.microprofile.showcase.session;
 
-/*
+/* add to force build
  * Copyright 2016 Microprofile.io
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -43,7 +43,7 @@ public class Session {
 
     public Session(){}
 
-    public String toString() { 
+    public String toString() {
         return "Session id " + id + " " + getAbstract() + " " + getSpeakers().toString();
 
     }
@@ -94,4 +94,3 @@ public class Session {
     }
 
 }
-
